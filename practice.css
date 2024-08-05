@@ -1,0 +1,725 @@
+
+/* icons */
+
+  .one:hover{
+    color: white;
+    opacity: 1;
+  }
+  .two:hover{
+    color: white;
+    opacity: 1;
+  }
+  .three:hover{
+    color: white;
+    opacity: 1;
+  }
+  .four:hover{
+    color: white;
+    opacity: 1;
+  }
+
+  /* card box1 */
+
+#box{
+    border:5px solid rgb(62,131,117);
+    width: 250px;
+    height: 240px;
+    font-size: 20px;
+    border-radius: 20px;
+    background-color: rgb(62,131,117);
+    text-align: center;
+    color: white;
+    padding: 50px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.box:hover{
+    opacity: 0.8;
+}
+  
+.box-container{
+  position: relative;
+  margin-top: -100px;
+}
+.impact{
+    height: 540px;
+}
+@media screen and (max-width:576px){
+  .impact{
+    height: 1500px;
+    }
+  .box-container{
+    position: relative;
+    margin-top: -1000px;
+  }
+}
+  
+/* about as */
+
+h2{
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bold;
+  text-align: center;
+  border-bottom: 20px;
+  text-decoration-line: underline;
+  text-decoration-color: rgb(62,131,117);
+}
+ 
+/* img1-content */
+
+#first{
+  line-height: 40px;
+  font-weight: bolder;
+  margin-bottom: 20px;
+}
+
+#second{
+  border-radius: 20px; 
+}
+
+/* img2-content */
+
+#lorem{
+  opacity: 0.5;
+  font-weight:bold;
+  
+}
+.tick{
+  list-style-type: none;
+}
+
+.tick1::before{
+  font-size: 20px;
+   color:rgb(62,131,117);
+   list-style-type: none;
+    line-height: 30px;
+  }
+
+.tick2::before{
+  font-size: 20px;
+  color: rgb(62,131,117);
+  line-height: 30px;
+  list-style-type: none;
+}
+
+.tick3::before{
+  font-size: 20px;
+  color: rgb(62,131,117);
+  line-height: 30px;
+  list-style-type: none;
+}
+
+#ullamco{
+  line-height: 25px;
+  font-size: 15px ;
+  justify-content: end;
+}
+  
+#image{
+border-radius:30px;
+position: relative;
+z-index:1;
+}
+.icon-container{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+display: flex;
+justify-content: center;
+align-items: center;
+z-index: 2;
+}
+#play{
+  color:  rgb(62,131,117);
+  font-size: 60px;
+}
+
+/* marquee */
+
+#hello{
+  margin-right: 20px;
+ font-size: 10px;
+}
+
+/* emoji */
+
+.emoji{
+  font-size: 50px;
+  color: rgb(62,131,117);
+}
+
+.ep{
+  opacity: 0.6; 
+}
+
+/* call to action*/
+
+.ig5{
+  border-radius: 20px;
+  background-size: cover;
+  filter: brightness(90%);
+  background-attachment: fixed;
+  line-height: 100px;
+  height: 450px;
+  width: 1100px;
+  }
+
+  @media screen and (max-width:576px) {
+    .ig5{
+      width: 350px;
+      height: 400px;
+    }
+  }
+
+#im7{
+  padding: 20px;
+  margin-top: 100px;
+}
+#im7 i{
+  padding-left: -20px;
+  position: absolute;
+  color:rgb(62,131,116) ;
+  font-size: xxx-large;
+  z-index: 2;
+  border-radius: 50%;
+  margin-top: 30px;
+}
+.pl1{
+  padding-right: 60px;
+  padding-bottom: 30px;
+}
+
+#im7 h3{
+  color: white;
+  padding-top: 100px;
+  background-color: transparent;
+  
+}
+
+#im7 p{
+  color: white;
+  line-height: normal;
+}
+
+.cll1{
+  font-size: 14px;
+}
+
+.cll2{
+  border: 4px solid white;
+  margin-top: 100px;
+  font-size: 20px;
+  height: 100px;
+  text-align: center;
+  border-radius: 10px;
+  text-decoration: none;
+  color: white;
+}
+
+.cll2:hover{
+opacity: 0.8;
+background-color: rgb(0,118,104);
+border-color: rgb(0,118,104);
+cursor: pointer;
+}
+
+.mew{
+  transition:transform 0.5s ease-out;
+}
+
+.mew:hover{
+  transform:scale(0.9);
+}
+
+/* our services */
+
+#our{
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bold;
+  text-align: center;
+  border-bottom: 20px;
+  text-decoration-line: underline;
+  text-decoration-color: rgb(62,131,117);
+}
+
+/* services-card */
+
+#card-title1{
+  font-size: 60px;
+  color: gray;
+}
+
+#card-title1:hover{
+  font-size: 60px;
+  color: black;
+}
+
+.sc{
+  font-size: 40px;
+}
+
+.sc:hover{
+  color: rgb(62,131,117);
+  border-bottom: 20px;
+  text-decoration-line: underline;
+}
+
+.card-link1{
+  text-decoration: none;
+  color: gray;
+}
+
+.card-link1:hover{
+  text-decoration: none;
+  color: rgb(62,131,117);
+}
+
+.mee{
+  box-shadow: 10px 10px 25px gray;
+  cursor: pointer;
+}
+
+/* testimonials */
+
+#min{
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bold;
+  text-align: center;
+  border-bottom: 20px;
+  text-decoration-line: underline;
+  text-decoration-color: rgb(62,131,117);
+}
+
+/* testimonial cards */
+
+.card-img-top1{
+  height: 50%;
+width: 50%;
+border-radius: 50%;
+padding: 20px;
+
+}
+
+.ceo{
+  opacity: 0.4;
+}
+
+.star{
+  color: gold;
+}
+
+.txt{
+  font-style: italic;
+}
+
+.quo{
+  font-size: 30px;
+  color: rgb(144,193,184);
+}
+
+.mye{
+  box-shadow: 10px 10px 25px gray;
+  cursor: pointer;
+}
+
+/* portfolio */
+
+#por{
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bolder;
+  text-align: center;
+  border-bottom: 20px;
+  text-decoration-line: underline;
+  text-decoration-color: rgb(62,131,117);
+}
+
+#t1{
+ color: rgb(62,131,117);
+}
+
+#t2:hover{
+ color: rgb(62,131,117);
+}
+
+#t3:hover{
+  color: rgb(62,131,117);
+}
+
+#t4:hover{
+  color: rgb(62,131,117);
+}
+
+#t5:hover{
+  color: rgb(62,131,117);
+}
+
+/* portfolio card */
+
+.pc1{
+  opacity: 0.7;
+  
+}
+
+.card-img-top2{
+  transition: transform 0.9 ease;
+}
+
+.card-img-top2:hover{
+  transform: scale(90%);
+}
+
+/* Our Team*/
+
+#our{
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bolder;
+  text-align: center;
+  border-bottom: 20px;
+  text-decoration-line: underline;
+  text-decoration-color: rgb(62,131,117);
+}
+
+/* our team card */
+
+.card-img-top3{
+    border-radius: 30px;
+    padding: 10px;
+}
+@media screen and (max-width: 576px){
+    .card-img-top3{
+      width: 20rem;
+    }
+    #card98{
+      width: 20rem;
+    }
+}
+
+#web{
+  opacity: 0.6;
+  font-style: italic;
+  text-align: center;
+}
+
+.meee{
+  text-align: center;
+}
+
+.t{
+  font-size: 22px;
+  color: gray;
+}
+.t:hover{
+  color: rgb(62,131,117);
+}
+
+.f{
+  font-size: 22px;
+  color: gray;
+}
+.f:hover{
+  color: rgb(62,131,117);
+}
+
+.i{
+  font-size: 22px;
+  color: gray;
+}
+.i:hover{
+  color: rgb(62,131,117);
+}
+
+.l{
+  font-size: 22px;
+  color: gray;
+}
+.l:hover{
+  color: rgb(62,131,117);
+}
+
+/* pricing */
+
+#pricing{
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bolder;
+  text-align: center;
+  border-bottom: 20px;
+  text-decoration-line: underline;
+  text-decoration-color: rgb(62,131,117);
+}
+
+/* pricing card */ 
+
+#cu1{
+  font-size: 50px;
+  color: rgb(62,131,117);
+}
+
+#border1{
+ border: 4px beige solid;
+ border-radius: 30px;
+ background-color: beige;
+height: 550px;
+}
+
+@media screen and (max-width:576px) {
+  #border1{
+    width: 320px;
+    height: 650px;
+    margin-left: 10px;
+  }
+
+}
+
+@media screen and (max-width:576px){
+  #border2{
+    width:320px;
+    margin-left: 10px;
+  }
+}
+
+#butt11{
+  border-radius: 30px;
+  font-size: 18px;
+}
+
+#butt11:hover{
+  background-color: rgb(62,131,117);
+  color: white;
+}
+
+#border2{
+  border: 5px rgb(0,118,104) solid;
+  border-radius: 30px;
+  height: 680px;
+  background-color: beige;
+}
+
+#cul1{
+  font-size: 50px;
+  color: rgb(62,131,117);
+
+}
+
+#butt12{
+  border-radius: 30px;
+  font-size: 18px;
+}
+
+#butt12:hover{
+  background-color: rgb(62,131,117);
+  color: white;
+}
+
+
+/* asked questions */
+.questions{
+  font-size: 15px;
+  color: rgb(79, 79, 79);
+}
+
+.acc1{
+  text-decoration: none;
+}
+
+
+#in{
+  color: black;
+}
+
+#in:hover{
+    color: rgb(62,131,117);
+}
+
+/* recent blog cards */
+
+#inimg{
+  height: 25%;
+  width: 32%;
+  border-radius: 60%;
+  padding: 20px;
+}
+
+.sss2{
+  opacity: 0.6;
+  font-size: 17px;
+}
+.card-text123{
+  text-align: start;
+}
+#card1234{
+
+  font-weight: bold;
+  padding-left: 90px;
+  font-size: 18px;
+  margin-top: -70px;
+  text-align: justify;
+}
+
+#c123{
+  opacity: 0.7;
+  padding-left: 90px;
+  margin-top: -20px;
+}
+
+/* contact inner*/
+
+.topp{
+  height: 580px;
+  width: 300px;
+  display: grid;
+  background-color: rgb(62,131,117) ;
+}
+
+.topp1{
+  background-color: rgb(73,143,131);
+  color: white;
+  margin-top: 20px;
+  height: 120px;
+  width: 250px;
+  margin-left: 25px;
+  padding: 15px;
+}
+.ic{
+  font-size: 30px;
+}
+
+.stro{
+  padding-left: 5px;
+  font-size: 23px;
+  text-align: justify;
+}
+.a10{
+  padding-left: 40px;
+  font-size: 14px;
+  text-align: justify;
+}
+
+.topp2{
+  background-color: rgb(73,143,131);
+  color: white;
+  margin-top: 160px;
+  height: 120px;
+  width: 250px;
+  margin-left: -345px;
+  padding: 15px
+
+}
+
+.topp3{
+  background-color: rgb(73,143,131);
+  color: white;
+  margin-top: 300px;
+  height: 120px;
+  width: 250px;
+  margin-left: -250px;
+  padding: 15px;
+}
+
+.topp4{
+  background-color: rgb(73,143,131);
+  color: white;
+  margin-top: 440px;
+  height: 120px;
+  width: 250px;
+  margin-left: -250px;
+  padding: 15px;
+}
+@media screen and(max-width:576px){
+  .topp{
+    width: 140px;
+    height: 120px;
+    margin-right: 10px;
+  }
+}
+@media screen and (max-width:576px){
+  .topp1{
+    margin-left: 10px;
+    margin-top: 40px;
+  }
+}
+@media screen and (max-width:576px){
+  .topp2{
+    margin-left: 20px;
+    margin-top: -410px;
+  }
+}
+@media screen and (max-width:576px){
+  .topp3{
+    margin-left: 20px;
+    margin-top: -280px;
+  }
+}
+@media screen and (max-width:576px){
+  .topp4{
+    margin-left: 20px;
+    margin-top: -150px;
+  }
+}
+
+/* form */
+
+.mudhal{
+  padding-left: 35px;
+  padding-top: 60px;
+  background-color: whitesmoke;
+}
+  
+#send{
+  border-radius: 30px;
+  color: white;
+background-color: rgb(62,131,117);
+}
+
+/* end section */
+  
+#imp{
+  color: white;
+  padding-top: 30px;
+}
+
+#cras{
+  color: whitesmoke;
+}
+
+#i11{
+  font-size: 20px; 
+  color: rgb(130,183,175);
+}
+#i11:hover{
+  color: whitesmoke;
+}
+
+.hellooo{
+  padding: 50px;
+}
+
+#end{
+  list-style-type: none;
+  color: rgb(130,183,175);
+  line-height: 30px;
+}
+
+#useful{
+  font-size: 20px;
+  color: white;
+}
+
+.helloo{
+  padding-top: 50px;
+}
+
+#end1{
+  list-style-type: none;
+  color: rgb(130,183,175);
+  line-height: 29px;
+}
+
+.helloooo{
+  padding-top: 50px;
+}
+#usefu{
+  color: white;
+  font-size: 20px;
+}
+
