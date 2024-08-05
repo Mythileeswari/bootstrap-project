@@ -162,15 +162,15 @@ z-index: 2;
   background-attachment: fixed;
   line-height: 100px;
   height: 450px;
-  width: 1100px;
+  /* width: 1100px; */
   }
 
-  @media screen and (max-width:576px) {
+  /* @media screen and (max-width:576px) {
     .ig5{
-      width: 350px;
+      width: 300px;
       height: 400px;
     }
-  }
+  } */
 
 #im7{
   padding: 20px;
@@ -629,30 +629,30 @@ height: 550px;
   .topp{
     width: 140px;
     height: 120px;
-    margin-right: 10px;
+    /* margin-right: 10px; */
   }
 }
 @media screen and (max-width:576px){
   .topp1{
-    margin-left: 10px;
+    margin-left: 25px;
     margin-top: 40px;
   }
 }
 @media screen and (max-width:576px){
   .topp2{
-    margin-left: 20px;
+    margin-left: 36px;
     margin-top: -410px;
   }
 }
 @media screen and (max-width:576px){
   .topp3{
-    margin-left: 20px;
+    margin-left: 37px;
     margin-top: -280px;
   }
 }
 @media screen and (max-width:576px){
   .topp4{
-    margin-left: 20px;
+    margin-left: 38px;
     margin-top: -150px;
   }
 }
@@ -669,6 +669,14 @@ height: 550px;
   border-radius: 30px;
   color: white;
 background-color: rgb(62,131,117);
+}
+
+@media screen and (max-width:576px){
+  .mudhal{
+    height: 550px;
+    width: 320px;
+    margin-left: 10px;
+  }
 }
 
 /* end section */
@@ -723,3 +731,15 @@ background-color: rgb(62,131,117);
   font-size: 20px;
 }
 
+@media screen and (max-width:576px) {
+  .hellooo{
+padding-left: 0px;
+  }
+  .helloo{
+padding-left: 150px;
+margin-top: -300px;
+  }
+  .helloooo{
+    padding-top: 10px;
+  }
+}
