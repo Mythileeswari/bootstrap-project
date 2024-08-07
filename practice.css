@@ -1,6 +1,18 @@
 
 /* icons */
 
+#my{
+  position: relative;
+  top: 0;
+  z-index: 9900;
+}
+
+#myy{
+  position: sticky;
+  top: 0;
+  z-index: 99;
+}
+
   .one:hover{
     color: white;
     opacity: 1;
